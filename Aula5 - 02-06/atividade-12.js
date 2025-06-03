@@ -4,9 +4,9 @@
 // "Aluno: [nome] | Curso: [curso]"
 
 function mostrarAluno(nome, curso) {
-    console.log(`Aluno: ${nome} | Curso: ${curso}`)
+    console.log(`Aluno: [${nome}] | Curso: [${curso}]`)
 }
 
 mostrarAluno("Pedro", "JavaScript")
 mostrarAluno("João", "Python")
-mostrarAluno("Maria", "Java")
+mostrarAluno("Ana", "Java")
