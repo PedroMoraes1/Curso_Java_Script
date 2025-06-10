@@ -67,5 +67,8 @@ nome.innerText
             username.innerText = `Username: ${data[0].username}`
             email.innerText = `Email: ${data[0].email}`
         }) 
+        .catch((err) => {
+            nome.innerText = "Não foi possível localizar o nome"
+        })
 
         
