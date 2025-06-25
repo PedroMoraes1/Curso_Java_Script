@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+main {
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.main1 {
+  display: flex;
+  gap: 40px;
+}
+
+main img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 32px #000;
+}
+
+.main2 {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  justify-content: center;
+  height: 420px;
+}
+
+main h2 {
+  width: 400px;
+  font-size: 36px;
+  color: #032598;
+}
+
+.p1 {
+  color: #4b5563;
+  width: 370px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 30px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+

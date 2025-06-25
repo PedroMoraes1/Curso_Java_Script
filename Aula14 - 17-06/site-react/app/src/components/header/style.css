@@ -1,0 +1,7 @@
+header{
+    padding: 25px;
+    text-align: center;
+    background: linear-gradient(to right, #032598, #000000);
+    /* background: linear-gradient(to rigth, #9333ea, #ec4899); */
+    color: #fff;
+}
