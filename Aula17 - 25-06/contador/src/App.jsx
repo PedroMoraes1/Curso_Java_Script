@@ -45,9 +45,6 @@ const App = () => {
 
   return (
     <div>
-      {/* <p>contador: {contador}</p>
-      <button onClick={incrementar}>Incrementar</button> */}
-
       <p>Nome: {nome}</p>
       <p>Espécie: {especie}</p>
       <p>Personagem {indiceAtual + 1} de {personagens.length}</p>
